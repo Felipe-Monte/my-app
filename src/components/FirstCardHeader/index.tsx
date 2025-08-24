@@ -32,7 +32,7 @@ export default function FirstCardHeader() {
             </p>
             <IconX />
             <IconTwitch color='#747DA4'/>
-            <IconDiscord />
+            <IconDiscord color='#747DA4'/>
           </div>
 
           <button className="bg-[#454F76] px-2.5 py-1 rounded-[4px] font-bold text-[10px] w-[180px]">
