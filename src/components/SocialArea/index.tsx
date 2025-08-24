@@ -5,7 +5,7 @@ export default function SocialArea() {
     <div className="h-[45px] w-full px-4 bg-[#212430]">
       <div className=" flex gap-2.5 w-full h-full justify-end">
         <IconWolf />
-        <IconTwitch />
+        <IconTwitch color='#fff'/>
         <IconDiscord />
       </div>
     </div>
