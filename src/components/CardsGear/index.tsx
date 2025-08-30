@@ -23,20 +23,16 @@ const products = [
 
 export default function CardsGear() {
   return (
-    <div className="w-full h-[486px]">
-      <h2 className="font-bold text-xl mb-2.5">MEU GEAR</h2>
-
-      <main className="flex flex-col gap-3.5">
-        {products.map((item, index) => (
-          <CardProduct
-            key={index}
-            image={item.image}
-            item={item.item}
-            mark={item.mark}
-            name={item.name}
-          />
-        ))}
-      </main>
+    <div className="flex flex-col gap-3.5">
+      {products.map((item, index) => (
+        <CardProduct
+          key={index}
+          image={item.image}
+          item={item.item}
+          mark={item.mark}
+          name={item.name}
+        />
+      ))}
     </div>
   );
 }

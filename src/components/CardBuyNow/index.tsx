@@ -1,0 +1,34 @@
+import Image from 'next/image';
+
+export default function CardBuyNow() {
+  return (
+    <div className="w-full h-[430px] bg-[#2F3651] rounded-[12px] flex flex-col">
+      <div className="w-full h-[205px] relative">
+        <Image
+          src="/assets/img/banner-card-buy.png"
+          fill
+          className="object-cover object-top rounded-t-[12px]"
+          alt="banner image"
+        />
+      </div>
+      <div className="w-full h-[205px] flex-1 p-5">
+        <h2 className="font-bold text-[16px] text-[#fff]">
+          Uniforme Oficial paiN Gaming 2021
+        </h2>
+        <p className="font-semibold text-[14px] text-[#747DA4]">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et.
+        </p>
+
+        <div className="w-full flex items-center justify-between">
+          <button className="bg-[#8FFF00] font-bold text-sm text-[#203800] rounded-[8px] py-1 px-2.5">
+            Comprar Agora
+          </button>
+          <span className="font-extrabold text-3xl text-[#747DA4]">
+            $139,90
+          </span>
+        </div>
+      </div>
+    </div>
+  );
+}
