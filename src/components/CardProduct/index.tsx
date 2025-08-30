@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { IconArrowRight } from '../../../public/assets/svg';
 
 export default function CardProduct() {
   return (
@@ -12,16 +13,19 @@ export default function CardProduct() {
         />
       </div>
 
-      <div className='border flex-1 px-5 items-center justify-center'>
-
-        <div className='border'>
-          <p>Mouse</p>
-          <p>Razer Deathadder R-X1</p>
-          <p>View More</p>
+      <div className="flex-1 px-5 items-center justify-center rounded-r-xl">
+        <div className="flex flex-col gap-2.5 items-start justify-center h-full">
+          <p className="font-bold text-[10px] text-[#747DA4]">Mouse</p>
+          <p className="font-extrabold text-[12px] text-[#0fff00]">
+            Razer{' '}
+            <span className="font-medium text-white">Deathadder R-X1</span>
+          </p>
+          <div className="flex items-center justify-center gap-1">
+            <p className="font-bold text-[10px] text-[#747DA4]">View More </p>
+            <IconArrowRight color="#747DA4" />
+          </div>
         </div>
-
       </div>
-
     </div>
   );
 }
