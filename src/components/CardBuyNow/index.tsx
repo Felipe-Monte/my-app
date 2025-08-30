@@ -24,11 +24,12 @@ export default function CardBuyNow() {
         </div>
 
         <div className="w-full flex items-center justify-between">
-          <button className="bg-[#8FFF00] font-bold text-sm text-[#203800] rounded-[8px] py-1 px-2.5">
+          <button className="bg-[#8FFF00] font-bold text-sm text-[#203800] rounded-[8px] py-1 px-2.5 border-0">
             Comprar Agora
           </button>
           <span className="font-extrabold text-3xl text-[#747DA4]">
-            $139,90
+            <span className="font-extrabold text-[16px] text-[#747DA4]">$</span>
+            139,90
           </span>
         </div>
       </div>
