@@ -8,16 +8,16 @@ const products = [
     name: 'Deathadder R-X1',
   },
   {
-    image: '/assets/img/mouse-razer.png',
-    item: 'Mouse',
+    image: '/assets/img/keyboard-razer.png',
+    item: 'Keyboard',
     mark: 'Razer',
-    name: 'Deathadder R-X1',
+    name: 'Blackwidow Chroma 2.0',
   },
   {
-    image: '/assets/img/mouse-razer.png',
-    item: 'Mouse',
+    image: '/assets/img/headset-razer.png',
+    item: 'Headset',
     mark: 'Razer',
-    name: 'Deathadder R-X1',
+    name: 'Kraken X',
   },
 ];
 
