@@ -11,14 +11,17 @@ export default function CardBuyNow() {
           alt="banner image"
         />
       </div>
-      <div className="w-full h-[205px] flex-1 p-5">
-        <h2 className="font-bold text-[16px] text-[#fff]">
-          Uniforme Oficial paiN Gaming 2021
-        </h2>
-        <p className="font-semibold text-[14px] text-[#747DA4]">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et.
-        </p>
+
+      <div className="w-full h-[205px] flex-1 p-5 flex flex-col items-center justify-between">
+        <div className="flex flex-col gap-3.5">
+          <h2 className="font-bold text-[16px] text-[#fff]">
+            Uniforme Oficial paiN Gaming 2021
+          </h2>
+          <p className="font-semibold text-[14px] text-[#747DA4]">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et.
+          </p>
+        </div>
 
         <div className="w-full flex items-center justify-between">
           <button className="bg-[#8FFF00] font-bold text-sm text-[#203800] rounded-[8px] py-1 px-2.5">
